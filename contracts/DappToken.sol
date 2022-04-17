@@ -8,4 +8,5 @@ contract DappToken is ERC20 {
     constructor() ERC20("Dapp Token", "DAPP") {
         _mint(msg.sender, 10_00_000_000_000_000_000_000_000);
     }
+    
 }
